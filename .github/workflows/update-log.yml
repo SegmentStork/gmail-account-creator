@@ -1,0 +1,27 @@
+name: Update LOG
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-log:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update LOG file
+        run: |
+          echo "Last update: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > LOG
+
+      - name: Commit and push
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add LOG
+          git diff --staged --quiet || git commit -m "[Auto] LOG updated $(date -u '+%Y-%m-%d %H:%M:%S')"
+          git push
