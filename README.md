@@ -1,4 +1,4 @@
-![preview](social-preview.png)
+![preview](ezgif-17e3affd8e984a84.gif)
 # 🚀 Gmail Creator Pro - The Ultimate Gmail Account Creator
 
 <div align="center">
